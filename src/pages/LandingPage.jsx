@@ -15,9 +15,25 @@ function LandingPage() {
         </div>
 
         <div className="nav-links">
-          <button onClick={() => navigate("/")}>Home</button>
-          <button onClick={() => navigate("/projects")}>Projects</button>
-          <button onClick={() => navigate("/dashboard")}>Dashboard</button>
+          <button onClick={() => navigate("/")}>
+            Home
+          </button>
+
+          <button onClick={() => navigate("/projects")}>
+            Projects
+          </button>
+
+          <button onClick={() => navigate("/dashboard")}>
+            Dashboard
+          </button>
+
+          <button onClick={() => navigate("/login")}>
+            Login
+          </button>
+
+          <button onClick={() => navigate("/register")}>
+            Register
+          </button>
         </div>
       </nav>
 
@@ -25,7 +41,9 @@ function LandingPage() {
       <section className="hero">
 
         <div className="hero-content">
-          <p className="hero-tag">SMART CAMPUS DEVELOPER HUB</p>
+          <p className="hero-tag">
+            SMART CAMPUS DEVELOPER HUB
+          </p>
 
           <h1>
             Build. Collaborate.
